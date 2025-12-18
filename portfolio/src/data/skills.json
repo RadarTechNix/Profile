@@ -1,0 +1,30 @@
+{
+    "Radar & DSP": [
+        "FMCW Radar",
+        "Signal Processing",
+        "MIMO Systems",
+        "Beamforming",
+        "Doppler Processing",
+        "CFAR Detection",
+        "Kalman Filtering"
+    ],
+    "Programming": [
+        "MATLAB",
+        "Python",
+        "C++",
+        "C"
+    ],
+    "Tools & Platforms": [
+        "Git",
+        "JIRA",
+        "Linux",
+        "Docker",
+        "Simulink"
+    ],
+    "Soft Skills": [
+        "Technical Leadership",
+        "Cross-functional Collaboration",
+        "Problem Solving",
+        "Mentoring"
+    ]
+}

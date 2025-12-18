@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "company": "Current Company",
+        "role": "Senior Radar Algorithm Engineer",
+        "period": "2021 - Present",
+        "achievements": [
+            "Led the development of advanced FMCW radar signal processing algorithms for automotive applications.",
+            "Optimized MIMO system design resulting in 30% improved angular resolution.",
+            "Collaborated with cross-functional teams to integrate radar solutions into ADAS platforms.",
+            "Mentored junior engineers and conducted technical training sessions."
+        ],
+        "tech": [
+            "MATLAB",
+            "C++",
+            "Python",
+            "DSP",
+            "Radar Simulator"
+        ]
+    },
+    {
+        "id": 2,
+        "company": "Previous Company",
+        "role": "Radar System Engineer",
+        "period": "2018 - 2021",
+        "achievements": [
+            "Designed and validated radar detection algorithms using statistical signal processing techniques.",
+            "Implemented beamforming strategies for interference mitigation in congested environments.",
+            "Supported field testing and data analysis for next-generation radar sensors."
+        ],
+        "tech": [
+            "MATLAB",
+            "Simulink",
+            "System Design",
+            "FPGA"
+        ]
+    },
+    {
+        "id": 3,
+        "company": "Early Career Company",
+        "role": "Field Application Engineer",
+        "period": "2015 - 2018",
+        "achievements": [
+            "Provided technical support to key automotive customers integrating radar sensors.",
+            "Developed demonstration kits and technical documentation for new product launches.",
+            "Bridged the gap between customer requirements and R&D capability."
+        ],
+        "tech": [
+            "Customer Support",
+            "Hardware Debugging",
+            "Automotive Ethernet"
+        ]
+    }
+]

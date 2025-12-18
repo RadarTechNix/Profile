@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "title": "MIMO Radar Simulation Framework",
+        "category": "Radar R&D",
+        "description": "A comprehensive simulation environment for evaluating MIMO radar performance under various channel conditions and target scenarios.",
+        "tech": [
+            "MATLAB",
+            "Phased Array System Toolbox"
+        ],
+        "link": "#",
+        "repo": "#"
+    },
+    {
+        "id": 2,
+        "title": "Automotive Radar Object Detection",
+        "category": "Embedded",
+        "description": "Real-time object detection and tracking algorithm implementation for automotive radar sensors using deep learning approaches.",
+        "tech": [
+            "Python",
+            "TensorFlow",
+            "Radar Data"
+        ],
+        "link": "#",
+        "repo": "#"
+    },
+    {
+        "id": 3,
+        "title": "Interference Mitigation Study",
+        "category": "System Design",
+        "description": "Research and implementation of advanced interference mitigation techniques for FMCW radars in dense traffic environments.",
+        "tech": [
+            "DSP",
+            "Research",
+            "Algorithm Design"
+        ],
+        "link": "#",
+        "repo": "#"
+    }
+]
