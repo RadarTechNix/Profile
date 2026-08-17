@@ -1,54 +1,95 @@
 [
     {
         "id": 1,
-        "company": "Current Company",
-        "role": "Senior Radar Algorithm Engineer",
-        "period": "2021 - Present",
+        "company": "NXP Semiconductors",
+        "role": "System Integration & Validation Engineer",
+        "period": "Mar 2026 - Present",
         "achievements": [
-            "Led the development of advanced FMCW radar signal processing algorithms for automotive applications.",
-            "Optimized MIMO system design resulting in 30% improved angular resolution.",
-            "Collaborated with cross-functional teams to integrate radar solutions into ADAS platforms.",
-            "Mentored junior engineers and conducted technical training sessions."
+            "Develop Python-based automated radar-validation test cases within an internal framework that integrates MATLAB for signal processing and Java for instrument and hardware automation.",
+            "Completed RX filter-shaping validation and phase-rotation validation, using MATLAB-based analysis, automated pass/fail decisions, and plotting.",
+            "Developed end-to-end supply-ripple validation across RX and TX chains, including RF measurements, data acquisition, metric extraction, and database reporting.",
+            "Extended reusable SCPI/VISA instrument drivers and APIs for the R&S FSW85 spectrum analyzer and Agilent 33250A function generator.",
+            "Execute large-scale regression runs with thousands of parameter combinations and log test data, results, and failure information to CVDB (PostgreSQL) for traceability and root-cause analysis."
         ],
         "tech": [
-            "MATLAB",
-            "C++",
-            "Python",
-            "DSP",
-            "Radar Simulator"
+            "Python Automation",
+            "MATLAB Engine",
+            "Java",
+            "SCPI/VISA",
+            "RF Validation",
+            "PostgreSQL / CVDB"
         ]
     },
     {
         "id": 2,
-        "company": "Previous Company",
-        "role": "Radar System Engineer",
-        "period": "2018 - 2021",
+        "company": "Calterah GmbH",
+        "role": "FAE & Technical Sales",
+        "period": "Sept 2024 - Feb 2026",
         "achievements": [
-            "Designed and validated radar detection algorithms using statistical signal processing techniques.",
-            "Implemented beamforming strategies for interference mitigation in congested environments.",
-            "Supported field testing and data analysis for next-generation radar sensors."
+            "Performed system-level debugging across the full radar pipeline, from ADC sampling to angle estimation.",
+            "Resolved about 90% of customer-reported performance issues and validated algorithm-hardware interactions.",
+            "Cleared critical SoC blockers involving OTP programming, Secure Boot, functional safety, and Ethernet driver behavior.",
+            "Delivered technical workshops and collaborated with Europe-China R&D teams on requirements and feature implementation."
         ],
         "tech": [
             "MATLAB",
-            "Simulink",
-            "System Design",
-            "FPGA"
+            "Radar SoC",
+            "System Debugging",
+            "Functional Safety",
+            "Ethernet"
         ]
     },
     {
         "id": 3,
-        "company": "Early Career Company",
-        "role": "Field Application Engineer",
-        "period": "2015 - 2018",
+        "company": "Fusionride GmbH",
+        "role": "Senior Radar Signal Processing Engineer",
+        "period": "Feb 2022 - Sept 2024",
         "achievements": [
-            "Provided technical support to key automotive customers integrating radar sensors.",
-            "Developed demonstration kits and technical documentation for new product launches.",
-            "Bridged the gap between customer requirements and R&D capability."
+            "Architected the complete radar processing chain in MATLAB, including 1D-4D FFT, MIMO, and beamforming.",
+            "Designed a multi-core system architecture with optimized runtime and memory performance.",
+            "Built antenna evaluation tools that reduced analysis time from one week to one day.",
+            "Delivered the first 4x4 corner radar prototype within one year and contributed to a 6x8 front-radar design."
         ],
         "tech": [
-            "Customer Support",
-            "Hardware Debugging",
-            "Automotive Ethernet"
+            "MATLAB",
+            "MIMO",
+            "Beamforming",
+            "Multi-core Architecture",
+            "ADAS Radar"
+        ]
+    },
+    {
+        "id": 4,
+        "company": "Continental Automotive",
+        "role": "Technical Specialist Radar",
+        "period": "Jul 2018 - Feb 2022",
+        "achievements": [
+            "Achieved 99.92% functional coverage for Gen5 radar validation.",
+            "Implemented CFAR, elevation MIMO, sidelobe-suppression, and noise-estimation modules.",
+            "Developed RPD/RSP modules across ARM M4, DSP, and MATLAB with runtime and memory improvements.",
+            "Supported root-cause analysis and system-level algorithm architecture decisions."
+        ],
+        "tech": [
+            "CFAR",
+            "MIMO",
+            "ARM M4",
+            "DSP",
+            "MATLAB"
+        ]
+    },
+    {
+        "id": 5,
+        "company": "Wavelet Technologies",
+        "role": "Project Engineer",
+        "period": "Jul 2015 - Jul 2018",
+        "achievements": [
+            "Developed firmware for pulse wind-profile radar systems.",
+            "Contributed across the full development lifecycle of radar products."
+        ],
+        "tech": [
+            "Embedded C",
+            "Pulse Radar",
+            "Firmware Development"
         ]
     }
 ]

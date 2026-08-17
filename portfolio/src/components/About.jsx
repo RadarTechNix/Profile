@@ -14,10 +14,10 @@ export default function About() {
 
                     <div className="prose prose-lg dark:prose-invert mx-auto text-slate-600 dark:text-slate-300">
                         <p className="mb-6 leading-relaxed">
-                            I am a dedicated <strong>Senior Radar Algorithm Engineer</strong> based in {profile.location}, with extensive experience in the full cycle of radar system development. My passion lies in pushing the boundaries of what's possible with FMCW radar technology, focusing on advanced signal processing, MIMO system optimization, and high-fidelity simulation.
+                            I am a <strong>System Integration &amp; Validation Engineer</strong> based in {profile.location}, working on automotive radar validation and RF test automation. My current focus is building scalable validation workflows that combine Python automation, MATLAB signal processing, laboratory instrumentation, and database-backed traceability.
                         </p>
                         <p className="leading-relaxed">
-                            With a background spanning both Research & Development and Field Application Engineering, I bring a unique perspective that bridges rigorous theoretical design with practical, customer-focused implementation. I excel in solving complex technical challenges and translating them into robust, detailed-oriented solutions.
+                            With a background spanning Radar R&amp;D, Field Applications Engineering, and system validation, I bridge algorithm development with practical end-to-end verification. I enjoy turning complex radar and RF measurement challenges into robust, automated test solutions.
                         </p>
                     </div>
                 </motion.div>

@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Download } from 'lucide-react';
 import profile from '../data/profile.json';
 
 export default function Hero() {
@@ -29,23 +28,6 @@ export default function Hero() {
                             {profile.summary}
                         </p>
 
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                            <a
-                                href="#contact"
-                                className="px-8 py-3 bg-primary hover:bg-sky-600 text-white rounded-full font-medium transition-all shadow-lg hover:shadow-primary/25 flex items-center justify-center gap-2"
-                            >
-                                Get in Touch
-                                <ArrowRight size={18} />
-                            </a>
-                            <a
-                                href={profile.resumeUrl}
-                                download
-                                className="px-8 py-3 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 hover:border-primary hover:text-primary dark:hover:border-primary dark:hover:text-primary rounded-full font-medium transition-all flex items-center justify-center gap-2"
-                            >
-                                Download CV
-                                <Download size={18} />
-                            </a>
-                        </div>
                     </motion.div>
 
                     <motion.div

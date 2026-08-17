@@ -1,10 +1,26 @@
 {
     "name": "Nikhil Ganpat Navghade",
-    "title": "Senior Radar Algorithm Engineer | Radar R&D | FMCW & DSP Specialist",
-    "summary": "Experienced Senior Radar Algorithm Engineer specializing in FMCW signal processing, MIMO system design, and automotive radar technologies. Proven track record in R&D and Field Application Engineering.",
+    "title": "System Integration & Validation Engineer | Automotive Radar & RF Automation",
+    "summary": "Radar engineer with 10+ years of experience across system integration and validation, RF test automation, FMCW signal processing, radar R&D, and field applications engineering.",
     "location": "Munich, Germany",
     "email": "nikhil.nawaghadej@gmail.com",
     "linkedin": "https://www.linkedin.com/in/nikhil-navghade/",
     "github": "https://github.com/nikhilnavghade",
-    "resumeUrl": "/resume.pdf"
+    "resumes": [
+        {
+            "label": "Radar R&D",
+            "description": "Algorithms, FMCW signal processing, and radar systems research.",
+            "url": ""
+        },
+        {
+            "label": "Field Applications Engineering",
+            "description": "Customer integration, technical support, and radar SoC enablement.",
+            "url": ""
+        },
+        {
+            "label": "System Integration & Validation",
+            "description": "End-to-end radar integration, architecture, and validation.",
+            "url": ""
+        }
+    ]
 }

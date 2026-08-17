@@ -11,10 +11,16 @@
     "Programming": [
         "MATLAB",
         "Python",
+        "Java",
         "C++",
         "C"
     ],
     "Tools & Platforms": [
+        "RF Test Automation",
+        "SCPI/VISA",
+        "PostgreSQL / CVDB",
+        "SMA100B",
+        "FSW85",
         "Git",
         "JIRA",
         "Linux",

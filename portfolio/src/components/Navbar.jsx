@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Sun, Moon, Github, Linkedin, FileText } from 'lucide-react';
+import { Menu, X, Sun, Moon, Github, Linkedin } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import profile from '../data/profile.json';
 
@@ -32,8 +32,8 @@ export default function Navbar() {
         { name: 'About', href: '#about' },
         { name: 'Skills', href: '#skills' },
         { name: 'Experience', href: '#experience' },
-        { name: 'Projects', href: '#projects' },
         { name: 'Contact', href: '#contact' },
+        { name: 'Projects', href: '#projects' },
     ];
 
     return (
@@ -64,7 +64,7 @@ export default function Navbar() {
                                 <a href={profile.github} target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-primary transition-colors">
                                     <Github size={20} />
                                 </a>
-                                <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-primary transition-colors">
+                                <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" aria-label="Open Nikhil Navghade's LinkedIn profile" title="LinkedIn" className="text-slate-500 hover:text-primary transition-colors">
                                     <Linkedin size={20} />
                                 </a>
                             </div>
@@ -105,7 +105,7 @@ export default function Navbar() {
                                 <a href={profile.github} target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-primary">
                                     <Github size={20} />
                                 </a>
-                                <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-primary">
+                                <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" aria-label="Open Nikhil Navghade's LinkedIn profile" title="LinkedIn" className="text-slate-500 hover:text-primary">
                                     <Linkedin size={20} />
                                 </a>
                             </div>
