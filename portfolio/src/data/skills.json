@@ -9,11 +9,11 @@
         "Kalman Filtering"
     ],
     "Programming": [
+        "C",
         "MATLAB",
-        "Python",
-        "Java",
+        "Python",        
         "C++",
-        "C"
+        "VHDL/Verilog"        
     ],
     "Tools & Platforms": [
         "RF Test Automation",
