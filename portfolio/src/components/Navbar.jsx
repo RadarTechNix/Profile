@@ -33,7 +33,7 @@ export default function Navbar() {
         { name: 'Skills', href: '#skills' },
         { name: 'Experience', href: '#experience' },
         { name: 'Contact', href: '#contact' },
-        { name: 'Projects', href: '#projects' },
+        { name: 'Portfolio', href: '#projects' },
     ];
 
     return (

@@ -38,7 +38,10 @@ The content is decoupled from the code and stored in JSON files in `src/data/`. 
 -   **Profile Info**: `src/data/profile.json` (Name, Title, Links, Summary)
 -   **Experience**: `src/data/experience.json` (Work history)
 -   **Projects**: `src/data/projects.json` (Portfolio items)
+-   **Portfolio Presentation**: `src/data/presentation.json` (Auto-advancing presentation slides)
 -   **Skills**: `src/data/skills.json` (Skills list)
+
+The Portfolio section advances every 4.5 seconds. Visitors can use the previous/next buttons, slide dots, keyboard arrow keys, pause button, or full-screen control. The downloadable PowerPoint deck is stored at `public/radar-engineering-interview.pptx`.
 
 ## 🎨 Customization
 
