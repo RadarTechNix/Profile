@@ -43,7 +43,7 @@ function IntroSlide() {
             <h3>Hi, I&apos;m<br />Nikhil.</h3>
             <p className="intro-summary">System Integration &amp; Validation Engineer<br />Automotive Radar &amp; RF Automation</p>
             <span></span>
-            <h4>Radar engineer with 10+ years of experience across system integration and validation, RF test automation, FMCW signal processing, radar R&amp;D, and field applications engineering.</h4>
+            <h4>Radar engineer with 12+ years of experience across system integration and validation, RF test automation, FMCW signal processing, radar R&amp;D, and field applications engineering.</h4>
             <small>Munich, Germany</small>
         </div>
         <RadarGraphic />

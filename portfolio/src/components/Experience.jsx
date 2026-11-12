@@ -1,13 +1,12 @@
-import { motion } from 'framer-motion';
-import { Calendar, Download, FileText } from 'lucide-react';
+import { motion as Motion } from 'framer-motion';
+import { Calendar } from 'lucide-react';
 import experience from '../data/experience.json';
-import profile from '../data/profile.json';
 
 export default function Experience() {
     return (
         <section id="experience" className="py-20 bg-slate-50 dark:bg-slate-800/50 transition-colors">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <motion.div
+                <Motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -15,7 +14,7 @@ export default function Experience() {
                 >
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">Work Experience</h2>
                     <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
-                </motion.div>
+                </Motion.div>
 
                 <div className="relative max-w-4xl mx-auto">
                     {/* Vertical Line */}
@@ -23,7 +22,7 @@ export default function Experience() {
 
                     <div className="space-y-12">
                         {experience.map((job, index) => (
-                            <motion.div
+                            <Motion.div
                                 key={job.id}
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
@@ -66,38 +65,7 @@ export default function Experience() {
                                         </div>
                                     </div>
                                 </div>
-                            </motion.div>
-                        ))}
-                    </div>
-                </div>
-
-                <div className="max-w-4xl mx-auto mt-16 text-center">
-                    <h3 className="text-2xl font-bold text-slate-900 dark:text-white">Download a tailored CV</h3>
-                    <p className="mt-3 text-slate-600 dark:text-slate-300">
-                        Select the version most relevant to the role you are hiring for.
-                    </p>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 text-left">
-                        {profile.resumes.map((resume) => (
-                            resume.url ? (
-                                <a
-                                    key={resume.label}
-                                    href={resume.url}
-                                    download
-                                    className="group p-5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 hover:border-primary dark:hover:border-primary hover:shadow-md transition-all"
-                                >
-                                    <FileText className="text-primary mb-4" size={24} />
-                                    <h4 className="font-bold text-slate-900 dark:text-white group-hover:text-primary transition-colors">{resume.label}</h4>
-                                    <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">{resume.description}</p>
-                                    <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-primary">Download CV <Download size={16} /></span>
-                                </a>
-                            ) : (
-                                <div key={resume.label} className="p-5 rounded-xl bg-white/70 dark:bg-slate-900/70 border border-slate-200 dark:border-slate-700">
-                                    <FileText className="text-primary mb-4" size={24} />
-                                    <h4 className="font-bold text-slate-900 dark:text-white">{resume.label}</h4>
-                                    <p className="mt-2 text-sm text-slate-600 dark:text-slate-400">{resume.description}</p>
-                                    <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-slate-400 dark:text-slate-500">Resume link coming soon</span>
-                                </div>
-                            )
+                            </Motion.div>
                         ))}
                     </div>
                 </div>

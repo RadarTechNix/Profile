@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { Mail, Linkedin, MapPin, Send } from 'lucide-react';
+import { motion as Motion } from 'framer-motion';
+import { Download, FileText, Mail, Linkedin, MapPin, Send } from 'lucide-react';
 import profile from '../data/profile.json';
 
 export default function Contact() {
@@ -13,7 +13,7 @@ export default function Contact() {
     return (
         <section id="contact" className="py-20 bg-slate-50 dark:bg-slate-800/50 transition-colors">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <motion.div
+                <Motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -21,11 +21,44 @@ export default function Contact() {
                 >
                     <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">Get In Touch</h2>
                     <div className="w-20 h-1 bg-primary mx-auto rounded-full"></div>
-                </motion.div>
+                </Motion.div>
+
+                <Motion.div
+                    id="resumes"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="mb-14 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900 sm:p-8"
+                >
+                    <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+                        <div>
+                            <p className="text-sm font-bold uppercase tracking-wider text-primary">Resume downloads</p>
+                            <h3 className="mt-1 text-2xl font-bold text-slate-900 dark:text-white">Choose the CV that fits the role</h3>
+                        </div>
+                        <p className="text-sm text-slate-500 dark:text-slate-400">PDF format</p>
+                    </div>
+                    <div className="grid gap-4 md:grid-cols-3">
+                        <a href="./cv-system-integration-validation-engineer.pdf" download className="group flex items-center gap-4 rounded-xl border border-slate-200 p-4 transition hover:-translate-y-0.5 hover:border-primary hover:shadow-md dark:border-slate-700 dark:hover:border-primary">
+                            <span className="rounded-lg bg-primary/10 p-3 text-primary"><FileText size={24} /></span>
+                            <span className="min-w-0 flex-1"><span className="block font-bold text-slate-900 dark:text-white">System Integration &amp; Validation</span><span className="mt-1 block text-sm text-slate-500 dark:text-slate-400">Radar systems and RF automation</span></span>
+                            <Download size={20} className="shrink-0 text-slate-400 transition group-hover:text-primary" />
+                        </a>
+                        <a href="./cv-radar-signal-processing-rnd.pdf" download className="group flex items-center gap-4 rounded-xl border border-slate-200 p-4 transition hover:-translate-y-0.5 hover:border-primary hover:shadow-md dark:border-slate-700 dark:hover:border-primary">
+                            <span className="rounded-lg bg-primary/10 p-3 text-primary"><FileText size={24} /></span>
+                            <span className="min-w-0 flex-1"><span className="block font-bold text-slate-900 dark:text-white">Radar Signal Processing R&amp;D</span><span className="mt-1 block text-sm text-slate-500 dark:text-slate-400">Algorithms and radar research</span></span>
+                            <Download size={20} className="shrink-0 text-slate-400 transition group-hover:text-primary" />
+                        </a>
+                        <a href="./cv-fae-radar-soc-application-engineering.pdf" download className="group flex items-center gap-4 rounded-xl border border-slate-200 p-4 transition hover:-translate-y-0.5 hover:border-primary hover:shadow-md dark:border-slate-700 dark:hover:border-primary">
+                            <span className="rounded-lg bg-primary/10 p-3 text-primary"><FileText size={24} /></span>
+                            <span className="min-w-0 flex-1"><span className="block font-bold text-slate-900 dark:text-white">FAE Radar SoC Applications</span><span className="mt-1 block text-sm text-slate-500 dark:text-slate-400">Design-in and customer engineering</span></span>
+                            <Download size={20} className="shrink-0 text-slate-400 transition group-hover:text-primary" />
+                        </a>
+                    </div>
+                </Motion.div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     {/* Contact Info */}
-                    <motion.div
+                    <Motion.div
                         initial={{ opacity: 0, x: -20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
@@ -67,10 +100,10 @@ export default function Contact() {
                                 </div>
                             </div>
                         </div>
-                    </motion.div>
+                    </Motion.div>
 
                     {/* Form */}
-                    <motion.div
+                    <Motion.div
                         initial={{ opacity: 0, x: 20 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
@@ -115,7 +148,7 @@ export default function Contact() {
                                 <Send size={18} />
                             </button>
                         </form>
-                    </motion.div>
+                    </Motion.div>
                 </div>
             </div>
         </section>
